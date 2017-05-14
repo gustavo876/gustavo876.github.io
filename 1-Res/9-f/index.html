@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brain Exercise - App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-muted" href="#">Brain Exercise</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">More<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Screenshots</a></li>
+                <li><a href="#">Learning</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Plans &amp; Pricing</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End navbar -->
+  
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <h1>Eu unum aperiam delectus vix.</h1>
+            <p class="lead">Id has iriure habemus urbanitas, feugait contentiones nam no. Has debet voluptua eu, eu noster cetero.</p>
+            <p class="btn-group">
+              <a class="btn btn-purple btn-lg" href="#">Download</a>
+              <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal" href="#textModal">Text me the link</a>
+            </p>           
+          </div>
+          <div class="item">
+            <h1>Learn how to use for iOS</h1>
+            <p class="lead">Ea nusquam delicata eam, duo mollis laoreet no.</p>
+            <p><a class="btn btn-purple btn-lg" href="#">Get started today!</a>      
+          </div>
+          <div class="item">
+            <h1>Learn how to use for Android</h1>
+            <p class="lead">Ea nusquam delicata eam, duo mollis laoreet no.</p>
+            <p><a class="btn btn-purple btn-lg" href="#">Get started today!</a></p>           
+          </div>
+        </div>     
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>      
+    </div> <!-- End Carousel -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="textModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">We'll Text You the Link!</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                <input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>iOS</option>
+                  <option>Android</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-purple" data-dismiss="modal">Send me link</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Main content-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <b class="glyphicon glyphicon-camera"></b>
+          <h2>Semper praesent expetendis ad sea.</h2>
+          <p>Ut per meis minimum, cu esse interpretaris eam. Animal percipit eum no, his no phaedrum assentior, ad aliquid eligendi vis. Sint dicam eum an, tamquam assentior usu id, eum eius ridens et. Eu cetero constituam eum, mea putant adipisci no.</p>
+        </div>
+        <div class="col-sm-4">
+          <b class="glyphicon glyphicon-user"></b>
+          <h2>Et case habemus quo, ei iisque commodo.</h2>
+          <p>Errem mediocritatem sit eu, quod integre virtute eam an, est no partem nostrud. Quo diceret assueverit ex. Probatus nominati at eam, velit maiorum duo at, te persius blandit eum. Eu natum copiosae explicari per.</p>
+       </div>
+        <div class="col-sm-4">
+          <b class="glyphicon glyphicon-cloud"></b>
+          <h2>Pro commodo concludaturque cu, nam te posse.</h2>
+          <p>Dicam salutatus abhorreant ne pri, omnes signiferumque eum at. Nec at nostro adipisci persecuti, cum vide tollit offendit in.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 hidden-xs">
+          <h3>Learn how to use this app</h3>
+          <p>Ius an autem pertinacia, assum delicatissimi cu nec. Cum cu amet laoreet. Brute altera molestie ea mea, quo ut dicant doming oportere.</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <img class="img-responsive hidden-xs" src="img/maxresdefault.jpg" style="border-radius:10px;">
+            </div>
+            <div class="col-sm-6">
+              <p>Get access to this app for only $5 a month!</p>
+              <p><a href="#">Visit Brain Exercise &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6">
+          <h3>About Brain Exercise</h3>
+          <p>Populo eirmod mea no, in sea enim noster dissentiet. Vel ex zril vocent, ut has veri quodsi gloriatur, ei sint soluta posidonium vel.</p>
+          <a href="#" class="btn btn-purple btn-md">Sign up for Brain Exercise &raquo;</a>
+        </div>
+      </div><!-- End main content-->
+
+      <hr>
+      <div class="pull-right">
+        <p>&copy; 2016 Ribbit - Gustavo Amezcua.</p>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>'));
+//-->
+</Script>

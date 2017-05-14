@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Luminaze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet" media="screen">
+    <link href="css/foundation.css" rel="stylesheet" media="screen">
+    <link href="css/foundation-icons.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+    <!-- Top Bar -->
+    <div class="contain-to-grid fixed">    
+      <nav class="top-bar">
+        <ul class="title-area">
+          <li class="name">
+            <h1>
+              <a href="#">Luminaze</a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Luminaze</a></li>
+            <li class="has-dropdown">
+              <a href="#">Luminaze</a>
+              <ul class="dropdown">
+                <li><a href="#">About Luminaze</a></li>
+                <li><a href="#">Video Library</a></li>
+                <li><a href="#">Tracks</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Plans &amp; Pricing</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+
+    <!-- Content Slider -->
+    <div class="row">
+      <div class="large-12 columns" data-orbit> 
+        <div>
+          <h1>Self-destructing message app</h1>
+          <p class="lead">Learn how to use this fun little app.</p>
+          <p class="button-group radius">
+            <a class="medium button success" href="#">Download the app</a>
+            <a class="medium button hide-for-small" data-reveal-id="formModal">Text me the link</a>
+          </p> 
+        </div>
+        <div>
+          <h1>Learn how to use it for iOS</h1>
+          <p class="lead">We'll teach you how to use it the app.</p>
+          <p><a class="medium button radius" href="#">Get started today!</a>   
+        </div>
+        <div>
+          <h1>Learn how to use it for Android</h1>
+          <p class="lead">We'll teach you how to use it the app.</p>
+          <p><a class="medium button radius" href="#">Get started today!</a></p> 
+        </div>
+      </div>
+    </div>
+    <!-- End Content Slider -->
+
+    <!-- Feature Content -->
+    <div id="firstStop" class="row">
+      <div class="large-4 columns">
+        <i class="fi-video"></i>
+        <h3>Strip steak biltong corned beef.</h3>
+        <p>Ham corned beef biltong pork chop ground round, salami cow tongue turkey ball tip jowl jerky fatback. Jowl pork bacon, hamburger kevin short ribs tail sirloin turkey pork chop salami corned beef. </p>
+      </div>
+      <div class="large-4 columns">
+        <i class="fi-torsos-all"></i>
+        <h3>Strip steak biltong corned beef.</h3>
+        <p>Ham corned beef biltong pork chop ground round, salami cow tongue turkey ball tip jowl jerky fatback. Jowl pork bacon, hamburger kevin short ribs tail sirloin turkey pork chop salami corned beef.</p>
+     </div>
+      <div class="large-4 columns">
+        <i class="fi-cloud"></i>
+        <h3>Jowl pork bacon, hamburger kevin.</h3>
+        <p>Chicken pig sausage, bresaola tri-tip t-bone salami capicola biltong. Shoulder hamburger drumstick fatback ham hock strip steak venison capicola pancetta tongue short loin swine cow frankfurter.</p>
+      </div>
+    </div><!-- End Feature Content -->
+
+   
+    <div class="row">
+      <hr>
+      <div id="secondStop" class="large-6 columns">
+        <h4>Learn how to use this app</h4>
+	  <p>Prosciutto jerky meatball short loin, salami tail jowl pastrami bresaola alcatra pork belly short ribs landjaeger.</p>
+        <div class="row">
+          <div class="large-6 push-6 columns">
+
+            <img class="th radius" data-reveal-id="vidModal" src="img/12ed3.png" data-interchange="[img/12ed3.png, (only screen and (min-width: 1px))], [img/12ed3.png, (only screen and (-webkit-min-device-pixel-ratio: 2))]">
+
+          </div>
+          <div class="large-6 pull-6 columns">
+            <p><em>Get access to the app for only $24 a month!</em></p>
+            <p><a href="#">Visit Us Now &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="thirdStop" class="large-6 columns">
+        <h4>About</h4>
+        <p>Strip steak biltong corned beef, beef kielbasa porchetta swine short loin hamburger leberkas alcatra fatback chicken cow.</p>
+        <a href="#" class="medium button success radius">Sign up for the app &raquo;</a>
+      </div>
+    </div>
+
+    <!-- Page Footer -->
+    <div class="row">
+      <hr>
+      <div class="large-4 large-centered columns">      
+		<p>&copy; 2016 Luminaze - By Gustavo A.</p>
+	  </div>    
+    </div><!-- End Page Footer -->
+
+    <!-- Form Modal -->
+    <div id="formModal" class="reveal-modal small">
+      <h3>We'll Text You the Link!</h3>
+      <form class="custom">
+        <fieldset>
+          <input type="tel" placeholder="Mobile Phone">
+          <select>
+            <option>iOS</option>
+            <option>Android</option>
+          </select>             
+          <button type="submit" class="small button">Text me!</button>
+        </fieldset>
+      </form>
+      <a href="#" class="close-reveal-modal">&#215;</a>
+    </div><!-- End Form Modal -->
+
+    <!-- Video Modal -->
+    <div id="vidModal" class="reveal-modal">
+      <h3>Learn how to use this app</h3>
+      <div class="flex-video widescreen">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/vqCOss4hqnE" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <a class="close-reveal-modal">&#215;</a>
+    </div><!-- End Video Modal -->
+
+    <!-- Joyride -->
+    <ol class="joyride-list" data-joyride>
+      <li data-id="firstStop" data-text="Go!" data-options="tipLocation:top; tipAnimation:fade; scrollSpeed:600;">
+        <p>Check out these neat features!</p>
+      </li>
+      <li data-id="secondStop" data-text="Next">
+        <p>We'll teach you how to use the features...</p>
+      </li>
+      <li data-id="thirdStop" data-button="End">
+        <p>When you sign up for the app!</p>
+      </li>
+    </ol>
+    <!-- End Joyride -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).foundation('joyride','start');
+    </script> 
+  </body>
+</html>
+
+
+
+
